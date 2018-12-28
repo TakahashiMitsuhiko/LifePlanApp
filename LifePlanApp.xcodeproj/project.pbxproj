@@ -14,11 +14,6 @@
 		384F9D4D21C7708F0007E21A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 384F9D4B21C7708F0007E21A /* LaunchScreen.storyboard */; };
 		384F9D5821C7708F0007E21A /* LifePlanAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384F9D5721C7708F0007E21A /* LifePlanAppTests.swift */; };
 		384F9D6321C7708F0007E21A /* LifePlanAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384F9D6221C7708F0007E21A /* LifePlanAppUITests.swift */; };
-		386C8D4321C7847D00CE721C /* kabu1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 386C8D4221C7847D00CE721C /* kabu1.jpg */; };
-		386C8D4521C7849800CE721C /* kabu2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 386C8D4421C7849800CE721C /* kabu2.jpg */; };
-		386C8D4721C787B500CE721C /* satsutaba.png in Resources */ = {isa = PBXBuildFile; fileRef = 386C8D4621C787B500CE721C /* satsutaba.png */; };
-		386C8D4921C788F800CE721C /* yamikin.png in Resources */ = {isa = PBXBuildFile; fileRef = 386C8D4821C788F800CE721C /* yamikin.png */; };
-		386C8D4B21C7916F00CE721C /* syogakukin.png in Resources */ = {isa = PBXBuildFile; fileRef = 386C8D4A21C7916F00CE721C /* syogakukin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +47,6 @@
 		384F9D5E21C7708F0007E21A /* LifePlanAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifePlanAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		384F9D6221C7708F0007E21A /* LifePlanAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifePlanAppUITests.swift; sourceTree = "<group>"; };
 		384F9D6421C7708F0007E21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		386C8D4221C7847D00CE721C /* kabu1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kabu1.jpg; path = ../kabu1.jpg; sourceTree = "<group>"; };
-		386C8D4421C7849800CE721C /* kabu2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kabu2.jpg; path = ../kabu2.jpg; sourceTree = "<group>"; };
-		386C8D4621C787B500CE721C /* satsutaba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = satsutaba.png; path = ../satsutaba.png; sourceTree = "<group>"; };
-		386C8D4821C788F800CE721C /* yamikin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yamikin.png; path = ../yamikin.png; sourceTree = "<group>"; };
-		386C8D4A21C7916F00CE721C /* syogakukin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = syogakukin.png; path = ../syogakukin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,11 +81,6 @@
 				384F9D5621C7708F0007E21A /* LifePlanAppTests */,
 				384F9D6121C7708F0007E21A /* LifePlanAppUITests */,
 				384F9D4021C7708D0007E21A /* Products */,
-				386C8D4221C7847D00CE721C /* kabu1.jpg */,
-				386C8D4421C7849800CE721C /* kabu2.jpg */,
-				386C8D4621C787B500CE721C /* satsutaba.png */,
-				386C8D4821C788F800CE721C /* yamikin.png */,
-				386C8D4A21C7916F00CE721C /* syogakukin.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -244,13 +229,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				386C8D4521C7849800CE721C /* kabu2.jpg in Resources */,
-				386C8D4321C7847D00CE721C /* kabu1.jpg in Resources */,
-				386C8D4921C788F800CE721C /* yamikin.png in Resources */,
 				384F9D4D21C7708F0007E21A /* LaunchScreen.storyboard in Resources */,
 				384F9D4A21C7708F0007E21A /* Assets.xcassets in Resources */,
-				386C8D4721C787B500CE721C /* satsutaba.png in Resources */,
-				386C8D4B21C7916F00CE721C /* syogakukin.png in Resources */,
 				384F9D4821C7708D0007E21A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		383493B121E31A9D00498EFA /* satsutaba_set.png in Resources */ = {isa = PBXBuildFile; fileRef = 383493B021E31A9D00498EFA /* satsutaba_set.png */; };
+		383493B321E31ACD00498EFA /* satsutaba_binta.png in Resources */ = {isa = PBXBuildFile; fileRef = 383493B221E31ACD00498EFA /* satsutaba_binta.png */; };
+		383493B521E31AFC00498EFA /* satsutaba2.png in Resources */ = {isa = PBXBuildFile; fileRef = 383493B421E31AFC00498EFA /* satsutaba2.png */; };
+		383493B721E31C6600498EFA /* satsutaba 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 383493B621E31C6600498EFA /* satsutaba 2.png */; };
+		383493B921E31CA400498EFA /* mitsugu_man.png in Resources */ = {isa = PBXBuildFile; fileRef = 383493B821E31CA400498EFA /* mitsugu_man.png */; };
+		383493BB21E31CD300498EFA /* satsutaba_binta.png in Resources */ = {isa = PBXBuildFile; fileRef = 383493BA21E31CD300498EFA /* satsutaba_binta.png */; };
 		384F9D4321C7708D0007E21A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384F9D4221C7708D0007E21A /* AppDelegate.swift */; };
 		384F9D4521C7708D0007E21A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384F9D4421C7708D0007E21A /* ViewController.swift */; };
 		384F9D4821C7708D0007E21A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 384F9D4621C7708D0007E21A /* Main.storyboard */; };
@@ -39,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		383493B021E31A9D00498EFA /* satsutaba_set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = satsutaba_set.png; sourceTree = SOURCE_ROOT; };
+		383493B221E31ACD00498EFA /* satsutaba_binta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = satsutaba_binta.png; sourceTree = SOURCE_ROOT; };
+		383493B421E31AFC00498EFA /* satsutaba2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = satsutaba2.png; sourceTree = SOURCE_ROOT; };
+		383493B621E31C6600498EFA /* satsutaba 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "satsutaba 2.png"; sourceTree = SOURCE_ROOT; };
+		383493B821E31CA400498EFA /* mitsugu_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mitsugu_man.png; sourceTree = SOURCE_ROOT; };
+		383493BA21E31CD300498EFA /* satsutaba_binta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = satsutaba_binta.png; sourceTree = SOURCE_ROOT; };
 		384F9D3F21C7708D0007E21A /* LifePlanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifePlanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		384F9D4221C7708D0007E21A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		384F9D4421C7708D0007E21A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,8 +124,14 @@
 				3894964E21D6108300904D19 /* satsutaba.png */,
 				3894964D21D6108300904D19 /* syogakukin.png */,
 				3894965021D6108400904D19 /* yamikin.png */,
+				383493B421E31AFC00498EFA /* satsutaba2.png */,
+				383493B821E31CA400498EFA /* mitsugu_man.png */,
+				383493B021E31A9D00498EFA /* satsutaba_set.png */,
+				383493BA21E31CD300498EFA /* satsutaba_binta.png */,
+				383493B621E31C6600498EFA /* satsutaba 2.png */,
 				384F9D4221C7708D0007E21A /* AppDelegate.swift */,
 				384F9D4421C7708D0007E21A /* ViewController.swift */,
+				383493B221E31ACD00498EFA /* satsutaba_binta.png */,
 				384F9D4621C7708D0007E21A /* Main.storyboard */,
 				384F9D4921C7708F0007E21A /* Assets.xcassets */,
 				384F9D4B21C7708F0007E21A /* LaunchScreen.storyboard */,
@@ -244,11 +262,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383493B121E31A9D00498EFA /* satsutaba_set.png in Resources */,
 				3894965521D6108500904D19 /* yamikin.png in Resources */,
 				3894965321D6108500904D19 /* satsutaba.png in Resources */,
+				383493B521E31AFC00498EFA /* satsutaba2.png in Resources */,
+				383493B321E31ACD00498EFA /* satsutaba_binta.png in Resources */,
 				3894965221D6108500904D19 /* syogakukin.png in Resources */,
 				384F9D4D21C7708F0007E21A /* LaunchScreen.storyboard in Resources */,
+				383493BB21E31CD300498EFA /* satsutaba_binta.png in Resources */,
+				383493B921E31CA400498EFA /* mitsugu_man.png in Resources */,
 				3894965621D6108500904D19 /* kabu1.jpg in Resources */,
+				383493B721E31C6600498EFA /* satsutaba 2.png in Resources */,
 				3894965421D6108500904D19 /* kabu2.jpg in Resources */,
 				384F9D4A21C7708F0007E21A /* Assets.xcassets in Resources */,
 				384F9D4821C7708D0007E21A /* Main.storyboard in Resources */,

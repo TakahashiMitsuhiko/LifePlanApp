@@ -25,7 +25,8 @@
 		3894965321D6108500904D19 /* satsutaba.png in Resources */ = {isa = PBXBuildFile; fileRef = 3894964E21D6108300904D19 /* satsutaba.png */; };
 		3894965421D6108500904D19 /* kabu2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3894964F21D6108400904D19 /* kabu2.jpg */; };
 		3894965521D6108500904D19 /* yamikin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3894965021D6108400904D19 /* yamikin.png */; };
-		3894965621D6108500904D19 /* kabu1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3894965121D6108500904D19 /* kabu1.jpg */; };
+		3894965621D6108500904D19 /* kabu2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3894965121D6108500904D19 /* kabu2.png */; };
+		389B123D22080A6B00D3B3DA /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B123C22080A6B00D3B3DA /* ViewController3.swift */; };
 		38C14C2021EEF95B00364DF8 /* ViewControllerOption1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C14C1F21EEF95B00364DF8 /* ViewControllerOption1.swift */; };
 		38C14C2221EF023F00364DF8 /* CustonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C14C2121EF023F00364DF8 /* CustonButton.swift */; };
 /* End PBXBuildFile section */
@@ -72,7 +73,8 @@
 		3894964E21D6108300904D19 /* satsutaba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = satsutaba.png; path = picture/satsutaba.png; sourceTree = SOURCE_ROOT; };
 		3894964F21D6108400904D19 /* kabu2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kabu2.jpg; path = picture/kabu2.jpg; sourceTree = SOURCE_ROOT; };
 		3894965021D6108400904D19 /* yamikin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yamikin.png; path = picture/yamikin.png; sourceTree = SOURCE_ROOT; };
-		3894965121D6108500904D19 /* kabu1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kabu1.jpg; path = picture/kabu1.jpg; sourceTree = SOURCE_ROOT; };
+		3894965121D6108500904D19 /* kabu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kabu2.png; path = picture/kabu2.png; sourceTree = SOURCE_ROOT; };
+		389B123C22080A6B00D3B3DA /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		38C14C1F21EEF95B00364DF8 /* ViewControllerOption1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerOption1.swift; sourceTree = "<group>"; };
 		38C14C2121EF023F00364DF8 /* CustonButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustonButton.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -126,7 +128,7 @@
 		384F9D4121C7708D0007E21A /* LifePlanApp */ = {
 			isa = PBXGroup;
 			children = (
-				3894965121D6108500904D19 /* kabu1.jpg */,
+				3894965121D6108500904D19 /* kabu2.png */,
 				3894964F21D6108400904D19 /* kabu2.jpg */,
 				3894964E21D6108300904D19 /* satsutaba.png */,
 				3894964D21D6108300904D19 /* syogakukin.png */,
@@ -135,6 +137,7 @@
 				383493B821E31CA400498EFA /* mitsugu_man.png */,
 				383493B021E31A9D00498EFA /* satsutaba_set.png */,
 				3869D90521E4326600C11143 /* ViewController2.swift */,
+				389B123C22080A6B00D3B3DA /* ViewController3.swift */,
 				38C14C2121EF023F00364DF8 /* CustonButton.swift */,
 				3869D90921E43E2E00C11143 /* AppDelegate.swift */,
 				383493BA21E31CD300498EFA /* satsutaba_binta.png */,
@@ -280,7 +283,7 @@
 				384F9D4D21C7708F0007E21A /* LaunchScreen.storyboard in Resources */,
 				383493BB21E31CD300498EFA /* satsutaba_binta.png in Resources */,
 				383493B921E31CA400498EFA /* mitsugu_man.png in Resources */,
-				3894965621D6108500904D19 /* kabu1.jpg in Resources */,
+				3894965621D6108500904D19 /* kabu2.png in Resources */,
 				383493B721E31C6600498EFA /* satsutaba 2.png in Resources */,
 				3894965421D6108500904D19 /* kabu2.jpg in Resources */,
 				384F9D4A21C7708F0007E21A /* Assets.xcassets in Resources */,
@@ -311,6 +314,7 @@
 			files = (
 				3869D90A21E43E2E00C11143 /* AppDelegate.swift in Sources */,
 				3869D90821E434A800C11143 /* testViewController.swift in Sources */,
+				389B123D22080A6B00D3B3DA /* ViewController3.swift in Sources */,
 				38C14C2221EF023F00364DF8 /* CustonButton.swift in Sources */,
 				3869D90621E4326600C11143 /* ViewController2.swift in Sources */,
 				38C14C2021EEF95B00364DF8 /* ViewControllerOption1.swift in Sources */,

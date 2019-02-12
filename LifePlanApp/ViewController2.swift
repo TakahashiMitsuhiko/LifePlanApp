@@ -19,6 +19,7 @@ class CustonUIButton: UIButton{
         setTitleColor(color, for: UIControl.State.normal)
         frame = CGRect(x: 0, y: 0, width: 150, height: 50)
         
+    //NSLog("aaa")
         
     }
 }
@@ -37,11 +38,14 @@ class CustonUIButton1: UIButton{
         
     }
 }
+
 class ViewController2: UIViewController {
 
     @IBOutlet weak var Testbutton: CustonUIButton!
     
     @IBOutlet weak var titleLabel: UITextField!
+    
+    @IBOutlet weak var Con2Text1: UITextField!
     
     //現在のページ
     var curretPage:Int = 0
@@ -53,17 +57,23 @@ class ViewController2: UIViewController {
         }
         
     }
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
     let appdelegate = UIApplication.shared.delegate as! AppDelegate
-        
-        let red = UIColor(displayP3Red: 255/255, green: 0/255, blue: 0/255, alpha: 100)
+        /*let red = UIColor(displayP3Red: 255/255, green: 0/255, blue: 0/255, alpha: 100)
         Testbutton.setButton(color: red)
         
         Testbutton.layer.position = CGPoint(x: self.view.frame.width/2, y: self.view.frame.height/5)
 
         titleLabel.text = "test"
+        */
+        
+        //Con2Text1
+        Con2Text1.text="自分のライフプランを考えよう"
+        Con2Text1.frame = CGRect(x:self.view.frame.width/2-150, y: self.view.frame.height/5-50,width:500,height:100);
         // Do any additional setup after loading the view.
     }
     override func viewDidLayoutSubviews() {
@@ -99,13 +109,14 @@ class ViewControllerOption1: UIViewController {
             super.viewDidLoad()
             
             ButtonOption1.layer.position = CGPoint(x: self.view.frame.width/2, y: self.view.frame.height/5)
-            
+            NSLog("aaa")
             // Do any additional setup after loading the view.
         }
     }
 
 class ViewControllerOption2: UIViewController {
     @IBOutlet weak var ButtonOption2: UIButton!
+
     
     @IBAction func ButtonOption2(_ sender: Any) {
         let url=NSURL(string:"http://www.microsoft.com")
@@ -118,8 +129,7 @@ class ViewControllerOption2: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
+      // Do any additional setup after loading the view.
     }
 }
 
@@ -162,5 +172,18 @@ class ViewControllerOption4: UIViewController {
         ButtonOption4.layer.position = CGPoint(x: self.view.frame.width/2, y: self.view.frame.height/5)
         
         // Do any additional setup after loading the view.
+    }
+}
+
+class ViewControllerOption5: UIViewController {
+    
+    
+    @IBOutlet weak var Caution: UITextField!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        Caution.text="test"
+        Caution.frame = CGRect(x:self.view.frame.width/2, y: self.view.frame.height/5,width:5,height:100);        // Do any additional setup after loading the view.
     }
 }

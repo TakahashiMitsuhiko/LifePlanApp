@@ -23,7 +23,7 @@
 		3869D90A21E43E2E00C11143 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3869D90921E43E2E00C11143 /* AppDelegate.swift */; };
 		3894965221D6108500904D19 /* syogakukin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3894964D21D6108300904D19 /* syogakukin.png */; };
 		3894965321D6108500904D19 /* satsutaba.png in Resources */ = {isa = PBXBuildFile; fileRef = 3894964E21D6108300904D19 /* satsutaba.png */; };
-		3894965421D6108500904D19 /* kabu2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3894964F21D6108400904D19 /* kabu2.jpg */; };
+		3894965421D6108500904D19 /* kabu2.temp_caseinsensitive_rename.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3894964F21D6108400904D19 /* kabu2.temp_caseinsensitive_rename.jpg */; };
 		3894965521D6108500904D19 /* yamikin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3894965021D6108400904D19 /* yamikin.png */; };
 		3894965621D6108500904D19 /* kabu2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3894965121D6108500904D19 /* kabu2.png */; };
 		389B123D22080A6B00D3B3DA /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389B123C22080A6B00D3B3DA /* ViewController3.swift */; };
@@ -71,7 +71,7 @@
 		3869D90921E43E2E00C11143 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3894964D21D6108300904D19 /* syogakukin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = syogakukin.png; path = picture/syogakukin.png; sourceTree = SOURCE_ROOT; };
 		3894964E21D6108300904D19 /* satsutaba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = satsutaba.png; path = picture/satsutaba.png; sourceTree = SOURCE_ROOT; };
-		3894964F21D6108400904D19 /* kabu2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kabu2.jpg; path = picture/kabu2.jpg; sourceTree = SOURCE_ROOT; };
+		3894964F21D6108400904D19 /* kabu2.temp_caseinsensitive_rename.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kabu2.temp_caseinsensitive_rename.jpg; path = picture/kabu2.temp_caseinsensitive_rename.jpg; sourceTree = SOURCE_ROOT; };
 		3894965021D6108400904D19 /* yamikin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yamikin.png; path = picture/yamikin.png; sourceTree = SOURCE_ROOT; };
 		3894965121D6108500904D19 /* kabu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kabu2.png; path = picture/kabu2.png; sourceTree = SOURCE_ROOT; };
 		389B123C22080A6B00D3B3DA /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				3894965121D6108500904D19 /* kabu2.png */,
-				3894964F21D6108400904D19 /* kabu2.jpg */,
+				3894964F21D6108400904D19 /* kabu2.temp_caseinsensitive_rename.jpg */,
 				3894964E21D6108300904D19 /* satsutaba.png */,
 				3894964D21D6108300904D19 /* syogakukin.png */,
 				3894965021D6108400904D19 /* yamikin.png */,
@@ -285,7 +285,7 @@
 				383493B921E31CA400498EFA /* mitsugu_man.png in Resources */,
 				3894965621D6108500904D19 /* kabu2.png in Resources */,
 				383493B721E31C6600498EFA /* satsutaba 2.png in Resources */,
-				3894965421D6108500904D19 /* kabu2.jpg in Resources */,
+				3894965421D6108500904D19 /* kabu2.temp_caseinsensitive_rename.jpg in Resources */,
 				384F9D4A21C7708F0007E21A /* Assets.xcassets in Resources */,
 				384F9D4821C7708D0007E21A /* Main.storyboard in Resources */,
 			);

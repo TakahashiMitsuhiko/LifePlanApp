@@ -117,14 +117,36 @@ class ViewControllerOption1: UIViewController {
 class ViewControllerOption2: UIViewController {
     @IBOutlet weak var ButtonOption2: UIButton!
 
+
+    @IBOutlet weak var case1a: UIButton!
     
-    @IBAction func ButtonOption2(_ sender: Any) {
-        let url=NSURL(string:"http://www.microsoft.com")
+   
+    
+    @IBAction func case1a(_ sender: Any) {
+        let url=NSURL(string:"http://www.jsda.or.jp/manabu")
         if UIApplication.shared.canOpenURL(url! as URL){
-            UIApplication.shared.open(url! as URL,options: [:],completionHandler: nil)
-        }
+            UIApplication.shared.open(url! as URL,options:[:],completionHandler: nil)
     }
     
+    
+    
+    
+    
+    
+    
+//    @IBAction func ButtonOption2(_ sender: Any) {
+//        let url=NSURL(string:"http://www.jsda.or.jp/manabu")
+//        if UIApplication.shared.canOpenURL(url! as URL){
+//            UIApplication.shared.open(url! as URL,options: [:],completionHandler: nil)
+//        }
+//    }
+//
+//    @IBAction func case1a(_ sender: Any) {
+//        let url=NSURL(string:"http://www.jsda.or.jp/manabu")
+//        if UIApplication.shared.canOpenURL(url! as URL){
+//            UIApplication.shared.open(url! as URL,options: [:],completionHandler: nil)
+//        }
+    }
     
     
     override func viewDidLoad() {
